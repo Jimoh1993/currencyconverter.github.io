@@ -8,10 +8,9 @@ var appCacheAssets = [
 	  'https://jimoh1993.github.io/currencyconverter.github.io/img/icon.png', 
 	  'https://jimoh1993.github.io/currencyconverter.github.io/img/background-image.jpg',
 	  'https://free.currencyconverterapi.com/api/v5/currencies',	 
-	  'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js'
+	  'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js',
 	  'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css',
-	
-	https://wmuza.github.io/ALC/js/app.js
+	  'https://fonts.googleapis.com/icon?family=Material+Icons'
 	
 ];
 
