@@ -1,7 +1,7 @@
 /**
 * Programmer: Jimoh Abdulganiyu
-* Version: 1.0.0
 * Year: 2018
+* Version: 1.0
 * ALC Version: ALC 3.0
 * Purpose: Google Africa Scholarship
 * Track: Mobile Web Specialist
@@ -31,7 +31,7 @@ if(navigator.serviceWorker){
 	console.log(' Services Worker does not support client browser please look for updated version');
 }
 
-// registering services worker function as taught in lesson Offline first using service worker
+// registering services worker function as taught in lesson Offline first during Ramadan Challenge 1.0 using service worker
 function registerServiceWorker() {
 	// register the service worker
 	navigator.serviceWorker.register('/CurrencyConverter/sw.js').then(function(sw) {
@@ -56,7 +56,7 @@ function registerServiceWorker() {
 	});
 }
 
-// track sw state
+/* sw state track here */
 function trackInstalling(worker) {
 	worker.addEventListener('statechange', function(){
 		if(worker.state == 'installed'){
@@ -65,7 +65,7 @@ function trackInstalling(worker) {
 	});
 }
 
-// update app 
+/* app update here */
 function updateIsReady(sw){
 	pushUpdateFound();
 }
@@ -293,7 +293,7 @@ function conversionFunc(){
 }
 
 
-// array generators using map & es6 Javascript arrow function
+// array generators using map & es6 Javascript arrow function learned during
 function objectToArray(objects) {
 	// body...
 	const results = Object.keys(objects).map(i => objects[i]);
