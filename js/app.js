@@ -1,14 +1,3 @@
-/**
-* Programmer: Jimoh Abdulganiyu
-* Year: 2018
-* Version: 1.0
-* ALC Version: ALC 3.0
-* Purpose: Google Africa Scholarship
-* Track: Mobile Web Specialist
-* Project Name: Currency Converter
-* Duration: #7DaysofCodeChallenge
-* Code: JavaScript
-*/
 
 'use strict';
 
