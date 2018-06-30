@@ -1,22 +1,18 @@
-/**
-* Programmer: Jimoh Abdulganiyu
-* Year: 2018
-* Version: 1.0
-* ALC Version: ALC 3.0
-* Purpose: Google Africa Scholarship
-* Track: Mobile Web Specialist
-* Project Name: Currency Converter
-* Duration: #7DaysofCodeChallenge
-* Code: JavaScript
-*/
-
 // registering service worker cache 
 var appCacheName = 'wms-static-v2';
 var appCacheAssets = [	
 	  'https://jimoh1993.github.io/currencyconverter.github.io/',
+	  'https://jimoh1993.github.io/currencyconverter.github.io/index.html',
+	  'https://jimoh1993.github.io/currencyconverter.github.io/js/app.js',
+	  'https://jimoh1993.github.io/currencyconverter.github.io/css/app.css',
+	  'https://jimoh1993.github.io/currencyconverter.github.io/img/icon.png', 
+	  'https://jimoh1993.github.io/currencyconverter.github.io/img/background-image.jpg',
 	  'https://free.currencyconverterapi.com/api/v5/currencies',	 
 	  'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js'
 	  'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css',
+	
+	https://wmuza.github.io/ALC/js/app.js
+	
 ];
 
 
