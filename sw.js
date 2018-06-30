@@ -1,7 +1,7 @@
 /**
 * Programmer: Jimoh Abdulganiyu
-* Version: 1.0
 * Year: 2018
+* Version: 1.0
 * ALC Version: ALC 3.0
 * Purpose: Google Africa Scholarship
 * Track: Mobile Web Specialist
@@ -12,7 +12,8 @@
 
 // registering service worker cache 
 var appCacheName = 'wms-static-v2';
-var appCacheAssets = [	  
+var appCacheAssets = [	
+	  'https://jimoh1993.github.io/currencyconverter.github.io/',
 	  'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js',
 	  'https://free.currencyconverterapi.com/api/v5/currencies',
 	  'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css',	 
@@ -30,7 +31,7 @@ self.addEventListener('install', function(event){
 	);
 });
 
-/* state active here */
+/* state activate here */
 self.addEventListener('activate', function(event){
 	event.waitUntil(
 		caches.keys().then(function(cacheNames){
