@@ -14,10 +14,9 @@
 var appCacheName = 'wms-static-v2';
 var appCacheAssets = [	
 	  'https://jimoh1993.github.io/currencyconverter.github.io/',
-	  'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js',
-	  'https://free.currencyconverterapi.com/api/v5/currencies',
-	  'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css',	 
+	  'https://free.currencyconverterapi.com/api/v5/currencies',	 
 	  'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js'
+	  'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css',
 ];
 
 
