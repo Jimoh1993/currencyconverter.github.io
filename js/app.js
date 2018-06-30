@@ -16,11 +16,6 @@ $(document).ready(function (){
 	fetchAllCurrencies();
 });
 
-/*
-|------------------------------------------|
-| 			SERVICE WORKER SECTION         |
-|------------------------------------------|
-*/
 
 // register services worker
 if(navigator.serviceWorker){
@@ -83,9 +78,7 @@ function pushUpdateFound() {
 
 
 /*
-|------------------------------------------|
-| 			INDEXED DB SECTION 			   |
-|------------------------------------------|
+IndexDB
 */
 if (!window.indexedDB) {
     console.log("Your browser doesn't support a stable version of IndexedDB");
@@ -205,12 +198,8 @@ function fetchFromDatabase(symbol, amount) {
 
 
 
-/*
-|------------------------------------------|
-| 				API SECTION				   |
-|------------------------------------------|
-*/
-// fetch all currencies 
+
+// API fetch all currencies 
 const fetchAllCurrencies = (e) => {
 	// used es6 Arrow func here..
 	$.get('https://free.currencyconverterapi.com/api/v5/currencies', (data) => {
